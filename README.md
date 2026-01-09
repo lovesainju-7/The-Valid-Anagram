@@ -6,14 +6,14 @@ If the lengths are the same, both strings are sorted.
 After sorting, if both strings become equal and same, it means they contain the same characters, 
 so the function returns true; otherwise
 
-#Time Complexity
+# Time Complexity
 The main operation is sorting both strings.
 Sorting a string of length n takes O(n log n) time.
 
 So, the overall time complexity is:
 O(n log n)
 
-#Space Complexity
+# Space Complexity
 The sorting is done on the same strings without using extra data structures.
 Therefore, the space complexity is:
 O(1) (constant extra space)
